@@ -77,11 +77,6 @@ For each model, the training script saves:
 ├── README.md
 ├── requirements.txt
 ├── LICENSE
-└── runs_mi_strict_baselines/
-    ├── eegnet/
-    ├── deepconvnet/
-    ├── tcanet/
-    └── eegconformer/
 ```
 
 ## Dataset layout
