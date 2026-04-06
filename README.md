@@ -117,25 +117,25 @@ A09_test.npz
 ### TCANet
 
 ```bash
-python train_mi_baselines.py --data_dir "D:\zhuomian\EEG_MI\processed_bcic2a" --model tcanet --subjects A01,A02,A03,A04,A05,A06,A07,A08,A09 --batch_size 72 --epochs 1000 --lr 0.001 --beta1 0.5 --beta2 0.999 --number_aug 1 --number_seg 8 --save_dir "D:\zhuomian\EEG_MI\results_strict"
+python train_mi_baselines.py --data_dir "D:\zhuomian\EEG_MI\processed_bcic2a" --model tcanet --subjects A01,A02,A03,A04,A05,A06,A07,A08,A09 --batch_size 72 --epochs 1000 --lr 0.001 --beta1 0.5 --beta2 0.999 --number_aug 1 --number_seg 8 --save_dir "D:\zhuomian\EEG_MI\results"
 ```
 
 ### EEGNet
 
 ```bash
-python train_mi_baselines.py --data_dir "D:\zhuomian\EEG_MI\processed_bcic2a" --model eegnet --subjects A01,A02,A03,A04,A05,A06,A07,A08,A09 --batch_size 72 --epochs 1000 --lr 0.001 --beta1 0.5 --beta2 0.999 --number_aug 1 --number_seg 8 --save_dir "D:\zhuomian\EEG_MI\results_strict"
+python train_mi_baselines.py --data_dir "D:\zhuomian\EEG_MI\processed_bcic2a" --model eegnet --subjects A01,A02,A03,A04,A05,A06,A07,A08,A09 --batch_size 72 --epochs 1000 --lr 0.001 --beta1 0.5 --beta2 0.999 --number_aug 1 --number_seg 8 --save_dir "D:\zhuomian\EEG_MI\results"
 ```
 
 ### DeepConvNet
 
 ```bash
-python train_mi_baselines.py --data_dir "D:\zhuomian\EEG_MI\processed_bcic2a" --model deepconvnet --subjects A01,A02,A03,A04,A05,A06,A07,A08,A09 --batch_size 72 --epochs 1000 --lr 0.001 --beta1 0.5 --beta2 0.999 --number_aug 1 --number_seg 8 --save_dir "D:\zhuomian\EEG_MI\results_strict"
+python train_mi_baselines.py --data_dir "D:\zhuomian\EEG_MI\processed_bcic2a" --model deepconvnet --subjects A01,A02,A03,A04,A05,A06,A07,A08,A09 --batch_size 72 --epochs 1000 --lr 0.001 --beta1 0.5 --beta2 0.999 --number_aug 1 --number_seg 8 --save_dir "D:\zhuomian\EEG_MI\results"
 ```
 
 ### EEG-Conformer
 
 ```bash
-python train_mi_baselines.py --data_dir "D:\zhuomian\EEG_MI\processed_bcic2a" --model eegconformer --subjects A01,A02,A03,A04,A05,A06,A07,A08,A09 --batch_size 72 --epochs 1000 --lr 0.001 --beta1 0.5 --beta2 0.999 --number_aug 1 --number_seg 8 --save_dir "D:\zhuomian\EEG_MI\results_strict"
+python train_mi_baselines.py --data_dir "D:\zhuomian\EEG_MI\processed_bcic2a" --model eegconformer --subjects A01,A02,A03,A04,A05,A06,A07,A08,A09 --batch_size 72 --epochs 1000 --lr 0.001 --beta1 0.5 --beta2 0.999 --number_aug 1 --number_seg 8 --save_dir "D:\zhuomian\EEG_MI\results"
 ```
 
 ## Output files
@@ -149,7 +149,7 @@ For each model, outputs are saved to:
 Example:
 
 ```text
-D:\zhuomian\EEG_MI\results_strict\tcanet\
+D:\zhuomian\EEG_MI\results\tcanet\
 ├── summary.csv
 ├── aggregate.json
 ├── A01_history.csv
