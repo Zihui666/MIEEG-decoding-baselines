@@ -29,7 +29,7 @@ In other words:
 
 ## What is implemented
 
-### 1. Strict BCIC IV-2a preprocessing
+### 1. BCIC IV-2a preprocessing
 
 The preprocessing script follows a TCANet-style BCIC IV-2a setup:
 
@@ -188,3 +188,4 @@ If you use this repository, please also cite the original papers and official re
 
 - This repository is intended for **benchmarking and reproduction**, not for claiming original authorship of the underlying published model architectures.
 - Reported results may differ from those in original papers because model performance depends on preprocessing details, augmentation choices, random seeds, and training protocol.
+- PyTorch with CUDA should be installed separately according to your local CUDA version.
